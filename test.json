@@ -1,0 +1,30 @@
+[
+  {
+    "name": "HTTP Proxy",
+    "scheme": "http",
+    "host": "proxy.example.com",
+    "port": 8080,
+    "bypassList": [
+      "localhost",
+      "127.0.0.1",
+      "*.local"
+    ]
+  },
+  {
+    "name": "SOCKS5 Proxy",
+    "scheme": "socks5",
+    "host": "socks.example.com",
+    "port": 1080
+  },
+  {
+    "name": " Proxy",
+    "scheme": "http",
+    "host": "192.168.1.100",
+    "port": 3128,
+    "bypassList": [
+      "localhost",
+      "127.0.0.1",
+      "192.168.*"
+    ]
+  }
+]
