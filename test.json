@@ -2,7 +2,7 @@
   {
     "name": "规则模式",
     "scheme": "http",
-    "host": "192.168.3.79",
+    "host": "192.168.10.139",
     "port": 3067,
     "bypassList": [
       "localhost",
@@ -13,7 +13,7 @@
   {
     "name": "直连模式",
     "scheme": "http",
-    "host": "192.168.3.79",
+    "host": "192.168.10.139",
     "port": 3065,
     "bypassList": [
       "localhost",
@@ -24,7 +24,7 @@
   {
     "name": "全局模式",
     "scheme": "http",
-    "host": "192.168.3.79",
+    "host": "192.168.10.139",
     "port": 3066,
     "bypassList": [
       "localhost",
