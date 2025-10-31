@@ -1,9 +1,9 @@
 [
   {
-    "name": "HTTP Proxy",
+    "name": "规则模式",
     "scheme": "http",
-    "host": "proxy.example.com",
-    "port": 8080,
+    "host": "192.168.3.79",
+    "port": 3067,
     "bypassList": [
       "localhost",
       "127.0.0.1",
@@ -11,20 +11,25 @@
     ]
   },
   {
-    "name": "SOCKS5 Proxy",
-    "scheme": "socks5",
-    "host": "socks.example.com",
-    "port": 1080
-  },
-  {
-    "name": " Proxy",
+    "name": "直连模式",
     "scheme": "http",
-    "host": "192.168.1.100",
-    "port": 3128,
+    "host": "192.168.3.79",
+    "port": 3065,
     "bypassList": [
       "localhost",
       "127.0.0.1",
-      "192.168.*"
+      "*.local"
+    ]
+  },
+  {
+    "name": "全局模式",
+    "scheme": "http",
+    "host": "192.168.3.79",
+    "port": 3066,
+    "bypassList": [
+      "localhost",
+      "127.0.0.1",
+      "*.local"
     ]
   }
 ]
